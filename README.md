@@ -13,17 +13,22 @@ Your job is to create an automated system to generate this information so that t
 <ls>
 <li>Task 1:</li>
 <ul>Write a function log_progress() to log the progress of the code at different stages in a file code_log.txt. Use the list of log points provided to create log entries as every stage of the code.</ul>
-
-<li><p>Task 2:</p>
+</ls>
+  
+<ls>
+<li>Task 2:</li>
 <ul>Extract the tabular information from the given URL under the heading 'By market capitalization' and save it to a dataframe.</ul>
 <ul>a. Inspect the webpage and identify the position and pattern of the tabular information in the HTML code</ul>
 <ul>b. Write the code for a function extract() to perform the required data extraction.</ul
 <ul>c. Execute a function call to extract() to verify the output.</ul>
-</li>
-<li><p>Task 3:</p>
+</ls>
+
+<ls>
+<li>Task 3:</li>
 <ul>Transform the dataframe by adding columns for Market Capitalization in GBP, EUR and INR, rounded to 2 decimal places, based on the exchange rate information shared as a CSV file.</ul>
 <ul>a. Write the code for a function transform() to perform the said task.</ul
-<ul>b. Execute a function call to transform() and verify the output.</ul </li>
+<ul>b. Execute a function call to transform() and verify the output.</ul 
+</ls>
 
 <li>Task 4:</li>
 <ul>Load the transformed dataframe to an output CSV file. Write a function load_to_csv(), execute a function call and verify the output.</ul>
